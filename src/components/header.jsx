@@ -14,13 +14,13 @@ const Header = () => {
         <Link>
           <h1 className="text-2xl">JobSphere</h1>
         </Link>
-        {/* <Button variant="outline">Login</Button> */}
-        <SignedOut>
+        <Button variant="outline">Login</Button>
+        {/* <SignedOut>
           <SignInButton />
         </SignedOut>
         <SignedIn>
           <UserButton />
-        </SignedIn>
+        </SignedIn> */}
       </nav>
     </>
   );
